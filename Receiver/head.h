@@ -8,6 +8,7 @@ typedef unsigned int u32;
 
 typedef signed int s32;
 
+
 extern void uart0_init(unsigned int baud);
 
 extern void uart0_tx(unsigned char data);
